@@ -1,6 +1,5 @@
 const { prompt } = require('inquirer');
-const mysql = require('mysql2');
-// const db = require('./db');
+const db = require('./db'); // requiring the new Db object exported from the index.js in db folder
 const logo = require('asciiart-logo');
 
 require('console.table');
